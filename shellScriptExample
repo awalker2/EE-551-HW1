@@ -1,0 +1,7 @@
+for (( i = 1 ; i < 288 ; i ++ ))
+do
+	traceroute www.yahoo.co.jp >> dumpfile
+	echo "------------------" >> dumpfile
+	sleep 300
+done
+#This is a comment
